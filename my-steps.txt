@@ -1,78 +1,209 @@
 ### Step 2A
-
+/c/User/zakir
 
 ### Step 2B
-
+cd OneDrive/ 
+ls
+cd Desktop/ 
 
 ### Step 2C
-
+ls
+cd unit-1-git-practice/
 
 ### Step 2D
+$ pwd
+/c/Users/zakir/OneDrive/desktop/unit-1-git-practice
 
 
 ### Step 2E
-
+ls
 
 ### Step 2F
+my-steps.txt
 
 
 ### Step 2G
-
+cd ~
 
 ### Step 2H
+$ pwd
+/c/Users/zakir
 
 
 ### Step 2I
-
+zakir@DESKTOP-982DQ25 MINGW64 ~
+$ ls
+'3D Objects'/         Documents/         MicrosoftEdgeBackups/                                     NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000001.regtrans-ms   PrintHood@     'Start Menu'@      ntuser.ini
+ AppData/             Downloads/         Music/                                                    NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000002.regtrans-ms   Recent@         Templates@
+'Application Data'@   Favorites/        'My Documents'@                                            NetHood@                                                                                      'Saved Games'/   Videos/
+ Contacts/            Links/             NTUSER.DAT                                                OneDrive/                                                                                      Searches/       ntuser.dat.LOG1
+ Cookies@            'Local Settings'@   NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TM.blf   Pictures/ 
 
 ### Step 2J
+zakir@DESKTOP-982DQ25 MINGW64 ~
+$ cd ..
+
+zakir@DESKTOP-982DQ25 MINGW64 /c/Users
+$ cd ..
+
+zakir@DESKTOP-982DQ25 MINGW64 /c
 
 
 ### Step 2K
+$ cd /c/Users/zakir/OneDrive/desktop/unit-1-git-practice
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
 
 
 
 ### Step 3A
+ zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ mkdir veggies
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ mkdir meats
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ mkdir desserts
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ ls
+desserts/  meats/  my-steps.txt  veggies/
 
 
 ### Step 3B
 
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ mv desserts/ sweets/
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ ls
+ 
 
 ### Step 3C
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ mkdir proteins
+
 
 
 ### Step 3D
 
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ mv meats/ proteins/
 
 ### Step 3E
 
+$ cd veggies/
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice/veggies
+$ touch carrot.txt
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice/veggies
+$ touch pea.txt
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice/veggies
+$ ls
+carrot.txt  pea.txt
+
 
 ### Step 3F
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice/veggies
+$ cd ..
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ cd sweets
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice/sweets
+$ touch cookie.txt
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice/sweets
+$ ls
+cookie.txt
 
 
 ### Step 3G
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice/sweets
+$ mv cookie.txt donut.txt
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice/sweets
+$ ls
+donut.txt
 
 
 ### Step 3H
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice/sweets
+$ cd ..
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ touch thing.txt
 
 
 ### Step 3I
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ cp thing.txt tofu.txt
 
 
 ### Step 3J
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ mv tofu.txt proteins/
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  thing.txt  veggies/
+
 
 
 ### Step 3K
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ cp thing.txt crab.txt
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ mv crab.txt proteins/meats/
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  thing.txt  veggies/
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ cd proteins/
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice/proteins
+$ cd meats/
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice/proteins/meats
+$ ls
+crab.txt
 
 
 ### Step 3L
 
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice/proteins/meats
+$ cd ../..
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ rm thing.txt
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  veggies/
+
 
 ### Step 3M
 
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ cp -r veggies/ plants
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ ls
+my-steps.txt  plants/  proteins/  sweets/  veggies/
 
 ### Step 3N
 
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ mkdir drinks
+
+zakir@DESKTOP-982DQ25 MINGW64 ~/OneDrive/desktop/unit-1-git-practice
+$ rm -r drinks
 
 
 ### Step 4
